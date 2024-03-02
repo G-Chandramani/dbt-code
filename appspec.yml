@@ -1,8 +1,9 @@
 version: 0.0
 os: linux
 files:
-  - source: /foldertest/
-    destination: /home/aws_code_deploy_test/
+  - source: /
+    destination: /home/airflow/dbt-code
+
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies
