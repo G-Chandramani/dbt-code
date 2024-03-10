@@ -1,4 +1,3 @@
 #!/bin/bash
-sudo su - airflow
 sudo apt install -y apache2
 

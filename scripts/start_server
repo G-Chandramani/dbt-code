@@ -1,3 +1,2 @@
 #!/bin/bash
-sudo su - airflow
 service apache2 start
