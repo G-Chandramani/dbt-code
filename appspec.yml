@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /home/dbt-code1
+    destination: /home/dbt-code
 
 hooks:
   BeforeInstall:
