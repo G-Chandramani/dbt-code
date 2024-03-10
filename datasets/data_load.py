@@ -56,5 +56,5 @@ print("Starting Script")
 truncate_table()
 load_data()
 
-
+#testdeploy1
 
