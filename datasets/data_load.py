@@ -34,7 +34,6 @@ def load_data():
    credits_file=r"C:/Users/gajbh/GitHub/dbt-code/datasets/credits.csv"
    credits_delimiter=","
 
-   
    titles_df = pd.read_csv(titles_file, sep = titles_delimiter)
    print("Titles file read")
    credits_df = pd.read_csv(credits_file, sep = titles_delimiter)
@@ -57,4 +56,4 @@ truncate_table()
 load_data()
 
 
-#final_test
+
