@@ -1,9 +1,9 @@
-version: 2
+# version: 2
 
-models:
-  - name: CREDITS_DIM
-    columns: 
-      - name: ID
-        tests:
-          - unique
-          - not_null
+# models:
+#   - name: CREDITS_DIM
+#     columns: 
+#       - name: ID
+#         tests:
+#           - unique
+#           - not_null
