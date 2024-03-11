@@ -1,7 +1,7 @@
 Netflix:   
   outputs:
     default:
-      account: safzqpd-jh55338.snowflakecomputing.com
+      account: safzqpd-jh55338
       database: PROD
       password: P@00word-001
       role: ACCOUNTADMIN
@@ -11,7 +11,7 @@ Netflix:
       user: chandramani
       warehuse: COMPUTE_WH 
     dev:
-      account: safzqpd-jh55338.snowflakecomputing.com
+      account: safzqpd-jh55338
       database: PROD
       password: P@00word-001
       role: ACCOUNTADMIN
@@ -21,7 +21,7 @@ Netflix:
       user: chandramani
       warehuse: COMPUTE_WH 
     prod:
-      account: safzqpd-jh55338.snowflakecomputing.com
+      account: safzqpd-jh55338
       database: PROD
       password: P@00word-001
       role: ACCOUNTADMIN
