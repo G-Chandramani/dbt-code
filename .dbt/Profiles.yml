@@ -1,0 +1,32 @@
+Netflix:   
+  outputs:
+    default:
+      account: safzqpd-jh55338.snowflakecomputing.com
+      database: PROD
+      password: P@00word-001
+      role: ACCOUNTADMIN
+      schema: DBT_RAW
+      threads: 4
+      type: snowflake
+      user: chandramani
+      warehuse: COMPUTE_WH 
+    dev:
+      account: safzqpd-jh55338.snowflakecomputing.com
+      database: PROD
+      password: P@00word-001
+      role: ACCOUNTADMIN
+      schema: DBT_TRANSFORM
+      threads: 4
+      type: snowflake
+      user: chandramani
+      warehuse: COMPUTE_WH 
+    prod:
+      account: safzqpd-jh55338.snowflakecomputing.com
+      database: PROD
+      password: P@00word-001
+      role: ACCOUNTADMIN
+      schema: DBT_PROD
+      threads: 4
+      type: snowflake
+      user: chandramani
+      warehuse: COMPUTE_WH    
