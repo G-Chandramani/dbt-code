@@ -29,4 +29,5 @@ Netflix:
       threads: 4
       type: snowflake
       user: chandramani
-      warehuse: COMPUTE_WH    
+      warehuse: COMPUTE_WH 
+         
